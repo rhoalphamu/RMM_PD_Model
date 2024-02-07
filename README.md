@@ -1,4 +1,5 @@
 # RMM_PD_Model
 Demo repository just for fun
 
-Just for the purposes of demonstaration.
+Contains code to develop a PD Model from scratch
+* Updated 1_sfa.py to include a base class for Gini calculation

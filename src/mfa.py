@@ -10,6 +10,6 @@ class MFA:
         return self.value / 1000 if self.value < 1000.0 else 0.0
 
 
-ram = SFA("ltv_100_x", 68)
+ram = MFA("ltv_100_x", 68)
 gini = ram.calculate_gini()
 print(f"Gini of the provided risk driver: {gini}")
